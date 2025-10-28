@@ -102,7 +102,7 @@ describe('validação formulários', () => {
     //17
     cy.get('#header > div > div > div > div.col-sm-8 > div > ul > li:nth-child(5) > a').click();
 
-    //18
+    //18 apagar conta.
 
     cy.get('#form > div > div > div > h2 > b').should('contain',h2AccDeletedMsg);
 
